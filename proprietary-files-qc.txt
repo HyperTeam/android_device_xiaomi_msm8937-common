@@ -123,27 +123,21 @@ vendor/lib64/libdpmqmihal.so|25bcb5d6853ccbf30fbe38230f9442049688c49a
 vendor/lib/com.qualcomm.qti.dpm.api@1.0_vendor.so|b7a9b3fc933e9f2155e74252ceeb4bf2fe6619d2
 vendor/lib/libdpmqmihal.so|81cd7b99f480466c37f8a1212e448afe1998b5d2
 
-# DRM - from santoni (Redmi 4X)
-bin/qseecomd:vendor/bin/qseecomd
-vendor/bin/qseeproxydaemon
-vendor/lib/libQSEEComAPI.so
-vendor/lib/libcppf.so
-vendor/lib64/lib-sec-disp.so
-vendor/lib64/libGPTEE.so
-vendor/lib64/libGPreqcancel.so
-vendor/lib64/libGPreqcancel_svc.so
-vendor/lib64/libQSEEComAPI.so
-vendor/lib64/libSecureUILib.so
-vendor/lib64/libStDrvInt.so
-vendor/lib64/libdrmfs.so
-vendor/lib64/libdrmtime.so
-vendor/lib64/libqisl.so
-vendor/lib64/librpmb.so
-vendor/lib64/libsecureui.so
-vendor/lib64/libsecureui_svcsock.so
-vendor/lib64/libsecureuisvc_jni.so
-vendor/lib64/libssd.so
-vendor/lib64/libtzdrmgenprov.so
+# DRM - from tissot - OPR1.170623.026
+vendor/bin/qseecomd|d51bb2af931ee5404cc06b05c959ff975320c9f3
+vendor/lib/libQSEEComAPI.so|825b1631308309a1357a37695275fd32b85a1436
+vendor/lib64/libGPreqcancel.so|9062c0c190228625f42fbdd24dab560b5eaf4f48
+vendor/lib64/libGPreqcancel_svc.so|a87324a2d28da0a5c12ced18df880e882213fea4
+vendor/lib64/libQSEEComAPI.so|d0b22d9e627700f63bb20e8b85c9160e36217ed3
+vendor/lib64/libSecureUILib.so|a63347a4fd2db272ff9a4f462e1bb578bf4316b8
+vendor/lib64/libStDrvInt.so|4b6f5b1138fe7b731fa23b20a31f7a223f1136b8
+vendor/lib64/libdrmfs.so|e93ad9f371c59a278d92e50735114e2e5e33a3d9
+vendor/lib64/libdrmtime.so|30c4007a4a5888d09a9394147d2c53633f53942d
+vendor/lib64/libqisl.so|64a80bfe1cf36f72a77f6c3e1f7be74eba601a42
+vendor/lib64/librpmb.so|4f3dabbd1ae00d2f658137a073f9a97568df90ae
+vendor/lib64/libsecureui.so|eeb9abe76def73af5d8f60a8ce87007e877bb893
+vendor/lib64/libsecureui_svcsock.so|d6ac4171cb271cc08d8d6650efcbf1b942708d74
+vendor/lib64/libssd.so|525090a06be89db33b2b1b3295bf708cb1b1245b
 
 # Gatekeeper - from santoni (Redmi 4X)
 vendor/lib/hw/gatekeeper.msm8937.so
