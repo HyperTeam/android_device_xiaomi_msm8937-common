@@ -139,9 +139,9 @@ vendor/lib64/libsecureui.so|eeb9abe76def73af5d8f60a8ce87007e877bb893
 vendor/lib64/libsecureui_svcsock.so|d6ac4171cb271cc08d8d6650efcbf1b942708d74
 vendor/lib64/libssd.so|525090a06be89db33b2b1b3295bf708cb1b1245b
 
-# Gatekeeper - from santoni (Redmi 4X)
-vendor/lib/hw/gatekeeper.msm8937.so
-vendor/lib64/hw/gatekeeper.msm8937.so
+# Gatekeeper - from tissot - OPR1.170623.026
+vendor/lib/hw/gatekeeper.msm8953.so:vendor/lib/hw/gatekeeper.msm8937.so|8b19d55b1b9587423c354af3b7736df3f5d160d6
+vendor/lib64/hw/gatekeeper.msm8953.so:vendor/lib64/hw/gatekeeper.msm8937.so|4d81962cd8d3debc98a479b27553de7f55b1d93a
 
 # GPS - from bardock-pro - OPM1.171019.011
 etc/permissions/com.qti.location.sdk.xml|cb68a566bd77dcc75bb7547199d528289fac01cb
