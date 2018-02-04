@@ -266,9 +266,9 @@ vendor/firmware/a530v2_seq.fw2|63b6d25594a5c1f4217d996a2b636e17a29fc840
 vendor/firmware/a530v3_gpmu.fw2|0a2f6f450231673d75ba39e5d28776db3becf810
 vendor/firmware/a530v3_seq.fw2|8963a53acc689725dee4b22881a4dd4b80e5def8
 
-# Keystore - from santoni (Redmi 4X)
-vendor/lib/hw/keystore.msm8937.so
-vendor/lib64/hw/keystore.msm8937.so
+# Keystore - from tissot - OPR1.170623.026
+vendor/lib/hw/keystore.msm8953.so:vendor/lib/hw/keystore.msm8937.so|af18e8b776eba29e961cab728b44c5dd154ac386
+vendor/lib64/hw/keystore.msm8953.so:vendor/lib64/hw/keystore.msm8937.so|a8901a748f3187696a95acc87087806b0a361c7e
 
 # Listen - from santoni (Redmi 4X)
 vendor/lib/hw/sound_trigger.primary.msm8937.so
@@ -511,18 +511,18 @@ vendor/lib64/lib-uceservice.so|3d782c0bbcc3727541ffa63a887060cdf559d916
 vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so|f6113715ce15dd8c1400d8017e0e033b75e0faf3
 vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so|cda7a4da8436db7a71496fbc6b75136d99af0658
 
-# Sensors - from santoni (Redmi 4X)
-bin/sensors.qcom:vendor/bin/sensors.qcom
-vendor/lib/hw/activity_recognition.msm8937.so
-vendor/lib/libsensor1.so
-vendor/lib/libsensor_reg.so
-vendor/lib/sensor_calibrate.so
-vendor/lib/sensors.ssc.so
-vendor/lib64/hw/activity_recognition.msm8937.so
-vendor/lib64/libsensor1.so
-vendor/lib64/libsensor_reg.so
-vendor/lib64/sensor_calibrate.so
-vendor/lib64/sensors.ssc.so
+# Sensors - from tissot - OPR1.170623.026
+vendor/bin/sensors.qcom|a175898ba5c55379a4fb15d87703db58666ddeb7
+vendor/lib/hw/activity_recognition.msm8953.so:vendor/lib/hw/activity_recognition.msm8937.so|4fa33baa4233661776cc548133600958a9168abf
+vendor/lib/libsensor1.so|4fce964db2d627f8c76b93c31d7c4f2b3b0fabc9
+vendor/lib/libsensor_reg.so|b4d7021b9f52b1af4b088a53288f17909e6968a4
+vendor/lib/libsensor_user_cal.so|b758a03d38090f15e094d64e64ba898f31b32cce
+vendor/lib/sensors.ssc.so|39d40e928ca9ef558506a7632baa341f16dd85b6
+vendor/lib64/hw/activity_recognition.msm8953.so:vendor/lib64/hw/activity_recognition.msm8937.so|2e485b261024fe1682eb2af733050e82c6e9e576
+vendor/lib64/libsensor1.so|48119f1ae57517699cf4dd5ac665a075465c19fe
+vendor/lib64/libsensor_reg.so|687cac41f342ff446ef4e078079a82b621e9067b
+vendor/lib64/libsensor_user_cal.so|5db27c02f41594740cdf5c0ef75f423bd56d8648
+vendor/lib64/sensors.ssc.so|ab10d321434e08a499dbd58b2ca1a92c74b10674
 
 # Thermal - from santoni (Redmi 4X)
 vendor/bin/thermal-engine
