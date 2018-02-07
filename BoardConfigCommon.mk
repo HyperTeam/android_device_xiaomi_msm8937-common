@@ -16,6 +16,8 @@
 
 VENDOR_PATH := device/xiaomi/msm8937-common
 
+WITH_LINEAGE_CHARGER := false
+
 # Inherit device-specific board fragments
 include $(VENDOR_PATH)/board/*.mk
 
