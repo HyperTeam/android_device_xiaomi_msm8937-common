@@ -12,8 +12,8 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 PRODUCT_AAPT_PREBUILT_DPI := hdpi
 
 # Ambient display
-PRODUCT_PACKAGES += \
-    CMDoze
+#PRODUCT_PACKAGES += \
+#    CMDoze
 
 # Display calibration
 PRODUCT_PACKAGES += \
