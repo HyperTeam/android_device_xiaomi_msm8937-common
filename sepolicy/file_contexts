@@ -25,6 +25,7 @@
 
 # Ir
 /dev/lirc[0-9]*					u:object_r:lirc_device:s0
+/(vendor|system/vendor)/bin/hw/android\.hardware\.ir@1\.0-service\.xiaomi_msm8937 u:object_r:hal_ir_default_exec:s0
 
 # Light
 /sys/devices/soc/78b6000\.i2c/i2c-2/2-[0-9a-f]+/leds(/.*)?    u:object_r:sysfs_leds:s0
