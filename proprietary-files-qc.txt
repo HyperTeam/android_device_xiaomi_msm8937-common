@@ -336,11 +336,11 @@ vendor/lib64/libqti-util.so|7d85e9bb97ce1aef4b604c38a6076cf9d22d67a1
 vendor/lib64/vendor.qti.hardware.iop@1.0_vendor.so|f7b6af32c6892ddb7c816b58593b36e11105ec4e
 vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so|11f80bc9ce4eb7a5ce937423f24ce2830e74f13f
 
-# Peripheral manager - from tissot - OPR1.170623.026
-vendor/bin/pm-proxy|e12c72d05c764a2c45b2a5d4d1886519cba3fb16
-vendor/bin/pm-service|83fac998bf8f651f2f0cd2385f6e1b7c3eefe5ea
-vendor/lib/libperipheral_client.so|0dabab6dc68748c2b0d3a97a5708ee555b3d5650
-vendor/lib64/libperipheral_client.so|d6db5efd4667ae3e831403f4e313fa38a5ae7bc8
+# Peripheral manager - from vince 8.1.0 OPM1.171019.019
+vendor/bin/pm-proxy
+vendor/bin/pm-service
+vendor/lib/libperipheral_client.so
+vendor/lib64/libperipheral_client.so
 
 # Postprocessing - from vince 8.1.0 OPM1.171019.019
 etc/permissions/com.qti.snapdragon.sdk.display.xml
