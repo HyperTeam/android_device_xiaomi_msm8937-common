@@ -107,12 +107,12 @@ vendor/lib64/libxml.so|28642c2ee9abf46130f5b44b3665b63b008d150d
 # Charger - from santoni (Redmi 4X)
 bin/hvdcp_opti:vendor/bin/hvdcp_opti
 
-# DPM - from tissot - OPR1.170623.026
-vendor/bin/dpmQmiMgr|2d2c8f1bc822874ae1c335315110756521d0c5da
-vendor/lib64/com.qualcomm.qti.dpm.api@1.0_vendor.so|0f23520fc925b8a5bb4cebc73c544cb2d012ce7e
-vendor/lib64/libdpmqmihal.so|25bcb5d6853ccbf30fbe38230f9442049688c49a
-vendor/lib/com.qualcomm.qti.dpm.api@1.0_vendor.so|b7a9b3fc933e9f2155e74252ceeb4bf2fe6619d2
-vendor/lib/libdpmqmihal.so|81cd7b99f480466c37f8a1212e448afe1998b5d2
+# DPM - from vince 8.1.0 OPM1.171019.019
+vendor/bin/dpmQmiMgr
+vendor/lib64/com.qualcomm.qti.dpm.api@1.0_vendor.so
+vendor/lib64/libdpmqmihal.so
+vendor/lib/com.qualcomm.qti.dpm.api@1.0_vendor.so
+vendor/lib/libdpmqmihal.so
 
 # DRM - from vince 8.1.0 OPM1.171019.019
 vendor/bin/qseecomd
