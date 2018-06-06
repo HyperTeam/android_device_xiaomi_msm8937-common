@@ -52,6 +52,9 @@ vendor/bin/hci_qcomm_init
 vendor/lib64/libbtnv.so
 vendor/lib/libbtnv.so
 
+# Charger - from vince 8.1.0 OPM1.171019.019
+vendor/bin/hvdcp_opti
+
 # CNE - from tissot - OPR1.170623.026
 etc/cne/andsfCne.xml|f81a69eac5dd16bbb195a0fcf1211a51cc014553
 etc/cne/SwimConfig.xml|68dedcca1c2ac18cf81fdee1854de16a3a60dd02
@@ -103,9 +106,6 @@ vendor/lib64/libcneoplookup.so|3ff18100d6516e096bc6c207b8632ed86db17000
 vendor/lib64/libcneqmiutils.so|41bf6f87336faaee239a3047b1fdac3f742ebde9
 vendor/lib64/libwqe.so|1ee0763c75da97daf3ef50a34be34cdb6465683f
 vendor/lib64/libxml.so|28642c2ee9abf46130f5b44b3665b63b008d150d
-
-# Charger - from santoni (Redmi 4X)
-bin/hvdcp_opti:vendor/bin/hvdcp_opti
 
 # DPM - from vince 8.1.0 OPM1.171019.019
 vendor/bin/dpmQmiMgr
