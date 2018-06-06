@@ -257,9 +257,9 @@ vendor/firmware/a530v2_seq.fw2|63b6d25594a5c1f4217d996a2b636e17a29fc840
 vendor/firmware/a530v3_gpmu.fw2|0a2f6f450231673d75ba39e5d28776db3becf810
 vendor/firmware/a530v3_seq.fw2|8963a53acc689725dee4b22881a4dd4b80e5def8
 
-# Keystore - from tissot - OPR1.170623.026
-vendor/lib/hw/keystore.msm8953.so:vendor/lib/hw/keystore.msm8937.so|af18e8b776eba29e961cab728b44c5dd154ac386
-vendor/lib64/hw/keystore.msm8953.so:vendor/lib64/hw/keystore.msm8937.so|a8901a748f3187696a95acc87087806b0a361c7e
+# Keystore - from vince 8.1.0 OPM1.171019.019
+vendor/lib/hw/keystore.msm8953.so:vendor/lib/hw/keystore.msm8937.so
+vendor/lib64/hw/keystore.msm8953.so:vendor/lib64/hw/keystore.msm8937.so
 
 # Listen - from TA-1025_00WW 8.1.0 OPR1.170623.026
 vendor/lib/hw/sound_trigger.primary.msm8937.so
