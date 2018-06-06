@@ -304,37 +304,34 @@ vendor/lib/libvqzip.so|9e3204e8f742bdadbe3d624acb42599f8a428bed
 vendor/lib/libwms.so|7df491e58c43b1274e9e7ef540aa6d2b3c1dd0d0
 vendor/lib64/libwms.so|2a629122412cf6157945a629a8bb5d63292bf4df
 
-# Perf - from tissot - OPR1.170623.026
--lib/vendor.qti.hardware.iop@1.0.so|aa7acb6ba94d402adbf7168b3ff3a46fd0b63daa
-lib/vendor.qti.hardware.perf@1.0.so|03dc7188e6da945ae0ac0217fbc4f31dc0f0090a
--lib64/vendor.qti.hardware.iop@1.0.so|2b0b048592d4c765db25ab2d3d69b3dbd2d346df
-lib64/vendor.qti.hardware.perf@1.0.so|fb10041b1361ec069c644c532e0be638585f1492
-vendor/bin/hw/vendor.qti.hardware.iop@1.0-service|ca792ae253f3d6b46e3607e3815838e0c989f9e3
-vendor/bin/hw/vendor.qti.hardware.perf@1.0-service|8f26b2b56b0c64b8b1818a00c07f48c2812bb4b2
-vendor/bin/msm_irqbalance|1511d0bf8f0d4bdf372a6563b6e4b20d3bf4dbc4
-vendor/etc/init/vendor.qti.hardware.iop@1.0-service.rc|32890b3d05b3733ee92cdd030d5757ceab847848
-vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc|b50182aadab2e31409df61c523d0fb914a394e43
-vendor/etc/perf/perfboostsconfig.xml|aac11c6988002873579f8ed4e0798d5327f6d3d8
-vendor/lib/hw/vendor.qti.hardware.iop@1.0-impl.so|e43e42ad6ad12c8aae754e5e415cb23db1b85798
-vendor/lib/libfeedbackhandler.so|5d9848eb4397e91f53053b5bd8c08d1d447abf5d
-vendor/lib/libperfgluelayer.so|3ee84253b255557ce8706755f0e81c15495c2a5e
-vendor/lib/libqti-iopd-client.so|edcbdea1b14ddb59eda5a9dd26ab4b554fa34326
-vendor/lib/libqti-iopd.so|aac848ae4a08bc47b05c49b4d73a851f82169228
-vendor/lib/libqti-perfd-client.so|4872e66e3324f0f771d82f5cfea478a33d446b06
-vendor/lib/libqti-perfd.so|d9e5bdb78035c5b279666cd848d6a3e5bd2d71e8
-vendor/lib/libqti-util.so|1edd91fb9a9d7b56f2fb3e60bf5b644ce2a9bc76
-vendor/lib/vendor.qti.hardware.iop@1.0_vendor.so|f3b34fbed59c65db055a20ffe6d867740cec2b3b
-vendor/lib/vendor.qti.hardware.perf@1.0_vendor.so|5af3ea7945a8379fb86cfed1711393be8f6136e7
-vendor/lib64/hw/vendor.qti.hardware.iop@1.0-impl.so|4de77de4f2468efa0a73bbeb14bf5f448622b0e9
-vendor/lib64/libfeedbackhandler.so|020f98e879322323371431a4c52d9fe1988a6293
-vendor/lib64/libperfgluelayer.so|302b6a9eb66a08d85807ec50186a5f07cc061f99
-vendor/lib64/libqti-iopd-client.so|7a532253c97d0c063a794fa1df1a7a76e1827d1a
-vendor/lib64/libqti-iopd.so|2bd92b793538c28b138712369c4243868b5fb780
-vendor/lib64/libqti-perfd-client.so|d0834b094f7b663c33d5ac860d383472fd75d36f
-vendor/lib64/libqti-perfd.so|a2d3a7fe2ee14511a800c6d8691f30c96af838d8
-vendor/lib64/libqti-util.so|7d85e9bb97ce1aef4b604c38a6076cf9d22d67a1
-vendor/lib64/vendor.qti.hardware.iop@1.0_vendor.so|f7b6af32c6892ddb7c816b58593b36e11105ec4e
-vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so|11f80bc9ce4eb7a5ce937423f24ce2830e74f13f
+# Perf - from vince 8.1.0 OPM1.171019.019
+-lib/vendor.qti.hardware.iop@1.0.so
+lib/vendor.qti.hardware.perf@1.0.so
+-lib64/vendor.qti.hardware.iop@1.0.so
+lib64/vendor.qti.hardware.perf@1.0.so
+vendor/bin/energy-awareness
+vendor/bin/hw/vendor.qti.hardware.perf@1.0-service
+vendor/bin/msm_irqbalance
+vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc
+vendor/etc/perf/perfboostsconfig.xml
+vendor/lib/hw/vendor.qti.hardware.iop@1.0-impl.so
+vendor/lib/libfeedbackhandler.so
+vendor/lib/libperfgluelayer.so
+vendor/lib/libqti-iopd-client.so
+vendor/lib/libqti-perfd-client.so
+vendor/lib/libqti-perfd.so
+vendor/lib/libqti-util.so
+vendor/lib/vendor.qti.hardware.iop@1.0_vendor.so
+vendor/lib/vendor.qti.hardware.perf@1.0_vendor.so
+vendor/lib64/hw/vendor.qti.hardware.iop@1.0-impl.so
+vendor/lib64/libfeedbackhandler.so
+vendor/lib64/libperfgluelayer.so
+vendor/lib64/libqti-iopd-client.so
+vendor/lib64/libqti-perfd-client.so
+vendor/lib64/libqti-perfd.so
+vendor/lib64/libqti-util.so
+vendor/lib64/vendor.qti.hardware.iop@1.0_vendor.so
+vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so
 
 # Peripheral manager - from vince 8.1.0 OPM1.171019.019
 vendor/bin/pm-proxy
