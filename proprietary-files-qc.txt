@@ -531,7 +531,7 @@ vendor/bin/time_daemon
 -vendor/lib/libtime_genoff.so
 -vendor/lib64/libtime_genoff.so
 
-# Widevine - from tissot - OPR1.170623.026
-vendor/bin/hw/android.hardware.drm@1.0-service.widevine|62dbed3b465a6abe33d03dd66cf89f3227766850
-vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc|51a3168a0dbc064d78ee11ca83614c0cd2e6daa5
-vendor/lib/libwvhidl.so|88ebba6280bd85e5bfea18efe2f685b0e1fb6f50
+# Widevine - from vince 8.1.0 OPM1.171019.019
+vendor/bin/hw/android.hardware.drm@1.0-service.widevine
+vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc
+vendor/lib/libwvhidl.so
