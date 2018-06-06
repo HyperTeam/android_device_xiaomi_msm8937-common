@@ -518,12 +518,11 @@ vendor/lib64/libsensor_reg.so|687cac41f342ff446ef4e078079a82b621e9067b
 vendor/lib64/libsensor_user_cal.so|5db27c02f41594740cdf5c0ef75f423bd56d8648
 vendor/lib64/sensors.ssc.so|ab10d321434e08a499dbd58b2ca1a92c74b10674
 
-# Thermal - from tissot - OPR1.170623.026
-vendor/etc/thermal-engine.conf|a91c8ea81a991c81f6a873876f6b148de60787ed
-vendor/bin/thermal-engine|e8adca1cf42c7328e03050b8776ba87a183b5dce
--vendor/lib/libthermalclient.so|6096637d37150d89caf3c730c9964ac07797fa55
--vendor/lib64/libthermalclient.so|9beae9671d80ee9b1d47689ed32b5780a863cb77
-vendor/lib64/libthermalioctl.so|ca2dca5f433073df781073f449fd7ed73a4e4d3c
+# Thermal - from vince 8.1.0 OPM1.171019.019
+vendor/bin/thermal-engine
+-vendor/lib/libthermalclient.so
+-vendor/lib64/libthermalclient.so
+vendor/lib64/libthermalioctl.so
 
 # Time services - from vince 8.1.0 OPM1.171019.019
 -vendor/app/TimeService/TimeService.apk
