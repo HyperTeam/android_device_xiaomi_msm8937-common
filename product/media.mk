@@ -13,13 +13,17 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     drm.service.enabled=true \
     media.aac_51_output_enabled=true \
+    media.stagefright.audio.sink=280 \
     mm.enable.smoothstreaming=true \
+    mm.enable.qcom_parser=17825791 \
+    mmp.enable.3g2=true \
     vendor.audio.hw.aac.encoder=true \
     vendor.vidc.disable.split.mode=1 \
     vendor.vidc.enc.disable.pq=true \
     vendor.vidc.enc.disable_bframes=1 \
     vidc.enc.narrow.searchrange=1 \
-    vidc.disable.split.mode=1
+    vidc.disable.split.mode=1 \
+    video.disable.ubwc=1
 
 # Seccomp policy
 PRODUCT_COPY_FILES += \
