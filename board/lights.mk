@@ -1,2 +1,2 @@
-#Lights
-TARGET_PROVIDES_LIBLIGHT:= true
+# Lights
+TARGET_PROVIDES_LIBLIGHT := true
