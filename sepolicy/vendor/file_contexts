@@ -10,6 +10,7 @@
 
 # Camera
 /data/vendor/qcam(/.*)?                         u:object_r:vendor_camera_data_file:s0
+/vendor/bin/mm-qcamera-daemon                   u:object_r:camera_exec:s0
 
 # DRM
 /vendor/bin/hw/android\.hardware\.drm@1\.1-service\.clearkey u:object_r:hal_drm_clearkey_exec:s0
@@ -30,6 +31,13 @@
 /data/system/fingerprint(/.*)?                  u:object_r:gx_fpd_data_file:s0
 /persist/data/gxfp(/.*)?                        u:object_r:gx_fpd_data_file:s0
 
+# Health
+/sys/devices/soc/soc:qcom,bcl/power_supply/bcl/type      u:object_r:sysfs_batteryinfo:s0
+
+# Input files
+/(vendor|system/vendor)/usr/idc(/.*)?		u:object_r:idc_file:s0
+/(vendor|system/vendor)/usr/keylayout(/.*)?	u:object_r:keylayout_file:s0
+
 # Ir
 /dev/lirc[0-9]*					u:object_r:lirc_device:s0
 
@@ -40,4 +48,4 @@
 /(vendor|system/vendor)/bin/hw/vendor\.lineage\.touch@1\.0-service\.xiaomi_8937 u:object_r:hal_lineage_touch_default_exec:s0
 
 # Light
-/sys/devices/soc/78b6000\.i2c/i2c-2/2-[0-9a-f]+/leds(/.*)?    u:object_r:sysfs_leds:s0
+/sys/devices/soc/78b6000.i2c/i2c-2/2-0045/leds/(/.*)?    u:object_r:sysfs_leds:s0
