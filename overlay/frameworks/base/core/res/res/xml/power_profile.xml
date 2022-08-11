@@ -2,25 +2,39 @@
 <device name="Android">
     <item name="screen.on">63</item>
     <item name="screen.full">261</item>
-    <array name="cpu.speeds">
-        <value>200000</value>
-        <value>499200</value>
-        <value>533333</value>
-        <value>800000</value>
+    <array name="cpu.clusters.cores">
+        <value>4</value>
+        <value>4</value>
+    </array>
+    <array name="cpu.core_speeds.cluster1">
+        <value>768000</value>
+        <value>902400</value>
         <value>998400</value>
         <value>1094400</value>
+    </array>
+    <array name="cpu.core_power.cluster1">
+        <value>39</value>
+        <value>41</value>
+        <value>46</value>
+        <value>52</value>
+    </array>
+    <array name="cpu.core_speeds.cluster0">
+        <value>960000</value>
+        <value>1094400</value>
         <value>1209600</value>
+        <value>1248000</value>
+        <value>1344000</value>
+        <value>1401000</value>
     </array>
-    <array name="cpu.active">
-        <value>151</value>
-        <value>169</value>
-        <value>177</value>
-        <value>195</value>
-        <value>259</value>
-        <value>307</value>
-        <value>353</value>
+    <array name="cpu.core_power.cluster0">
+        <value>40</value>
+        <value>52</value>
+        <value>58</value>
+        <value>64</value>
+        <value>75</value>
+        <value>98</value>
     </array>
-    <item name="cpu.awake">1.6</item>
+    <item name="cpu.suspend">0.1</item>
     <item name="cpu.idle">1.6</item>
-    <item name="battery.capacity">4000</item>
+    <item name="battery.capacity">4100</item>
 </device>
